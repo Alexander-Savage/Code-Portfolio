@@ -21,6 +21,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  background-image: url('./images/alex_background_upscayl_4x_RealESRGAN_General_x4_v3.png');
+  background-size: cover;
+  height: auto;
   color: white;
 }
 

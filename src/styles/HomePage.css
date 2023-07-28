@@ -1,0 +1,25 @@
+
+
+.home-header{
+    font-family: 'Poppins';
+    font-size: 80px;
+    letter-spacing: -6px;
+}
+
+.home-description {
+    font-family: 'Poppins';
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+.card {
+    background-color: aquamarine;
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+    position: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
