@@ -56,8 +56,8 @@ function App() {
           <Route path="/contact" element={<Contact />}/>
 
         </Routes>
-        <div>{content}</div>
-          <Button variant="contained" onClick={callApi}>Contained</Button>  
+        {/* <div>{content}</div> */}
+          {/* <Button variant="contained" onClick={callApi}>Contained</Button>   */}
 
         </header>
       </Container>

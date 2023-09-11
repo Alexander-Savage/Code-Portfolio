@@ -2,9 +2,16 @@ import React from 'react';
 
 function Contact() {
   return (
+
+    
     <div>
       <h1>Contact Page</h1>
-      <p>Welcome to the contact page!</p>
+      
+      <a href="https://www.linkedin.com/in/alex-savage-3776a2216/">Linkedin!</a>
+
+      <a href="https://www.linkedin.com/in/alex-savage-3776a2216/">Instagram!</a>
+      
+
     </div>
   );
 }
