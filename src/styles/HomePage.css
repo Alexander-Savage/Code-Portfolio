@@ -4,12 +4,14 @@
     font-family: 'Poppins';
     font-size: 80px;
     letter-spacing: -6px;
+    color: black;
 }
 
 .home-description {
     font-family: 'Poppins';
     font-size: 30px;
     line-height: 40px;
+    color: black;
 }
 
 

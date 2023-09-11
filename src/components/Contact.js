@@ -9,7 +9,7 @@ function Contact() {
       
       <a href="https://www.linkedin.com/in/alex-savage-3776a2216/">Linkedin!</a>
 
-      <a href="https://www.linkedin.com/in/alex-savage-3776a2216/">Instagram!</a>
+      <a href="https://instagram.com/savage.software?igshid=NzZlODBkYWE4Ng==">Instagram!</a>
       
 
     </div>
