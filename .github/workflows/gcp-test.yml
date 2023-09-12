@@ -17,6 +17,6 @@ jobs:
         export_default_credentials: true
     - name: Deploy to App Engine
       run: |
-        gcloud app deploy --quiet
+        gcloud app deploy --service-account=gitactionsgcppusher@smartalarmproject-387419.iam.gserviceaccount.com
 
         
