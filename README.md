@@ -15,3 +15,7 @@ Finally starting this project September 2023. Lets see how quickly I can link up
 2. Show some backend code/projects.
 3. Show I understand API's, setting up my own API definition and calling the API to connect the back and front end. (currently using fastAPI)
 4. Setup a (probably simplistic) GitActions Pipeline to push the code to GCP so I can show off my awesome project!
+
+### What has been done as of Tuesday 12th September 2023:
+
+
