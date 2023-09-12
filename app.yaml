@@ -5,8 +5,8 @@ handlers:
   static_dir: static
 
 - url: /.*
-  script: auto
+  script: main.app
 
-env_variables:
-  DATABASE_URI: 'your-database-uri'
+# env_variables:
+#   DATABASE_URI: 'your-database-uri'
   
