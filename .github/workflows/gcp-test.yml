@@ -15,6 +15,7 @@ jobs:
         project_id: ${{ secrets.GCP_PROJECT_ID }}
         service_account_key: ${{ secrets.GCP_SA_KEY }}
         export_default_credentials: true
+        impersonate_service_account: gitactionsgcppusher@smartalarmproject-387419.iam.gserviceaccount.com
     - name: Deploy to App Engine
       run: |
         gcloud app deploy --service-account=gitactionsgcppusher@smartalarmproject-387419.iam.gserviceaccount.com
