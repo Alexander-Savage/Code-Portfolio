@@ -6,7 +6,3 @@ handlers:
 
 - url: /.*
   script: main.app
-
-# env_variables:
-#   DATABASE_URI: 'your-database-uri'
-  
