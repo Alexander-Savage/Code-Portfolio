@@ -1,3 +1,7 @@
 runtime: nodejs16
 # env_variables:
 #   REACT_APP_API_KEY: <your-api-key>
+
+automatic_scaling:
+  min_instances: 2
+
