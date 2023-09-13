@@ -1,8 +1,3 @@
-runtime: python37
-
-handlers:
-- url: /static
-  static_dir: static
-
-- url: /.*
-  script: main.app
+runtime: nodejs
+# env_variables:
+#   REACT_APP_API_KEY: <your-api-key>
