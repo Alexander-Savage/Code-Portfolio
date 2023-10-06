@@ -10,11 +10,13 @@ function HomePage() {
       This is my Coding portfolio where I can show off my skills to learn new languages quickly.
       <br/>
       This also shows my ability to develop a full stack website and deploy it!
+
+      Come and learn with me on my instagram page <a href="https://instagram.com/savage.software?igshid=NzZlODBkYWE4Ng==">@savage.software!!</a>
       </p>
-      <div className='card'>
+      {/* <div className='card'>
         <div>Some cool text</div>
-      </div>
-      <div style={{height: '100vh'}}></div>
+      </div> */}
+      {/* <div style={{height: '100vh'}}></div> */}
     </div>
   );
 }
