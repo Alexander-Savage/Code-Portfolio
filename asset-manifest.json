@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/%7BCode-Portfolio%7D/static/css/main.b44afe66.css",
+    "main.js": "/%7BCode-Portfolio%7D/static/js/main.79f9245f.js",
+    "static/js/787.38497996.chunk.js": "/%7BCode-Portfolio%7D/static/js/787.38497996.chunk.js",
+    "static/media/—Pngtree—3d indonesia national flag frame_1180187.jpg": "/%7BCode-Portfolio%7D/static/media/—Pngtree—3d indonesia national flag frame_1180187.b36520dceb1d4a0bae0c.jpg",
+    "static/media/logo.svg": "/%7BCode-Portfolio%7D/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/%7BCode-Portfolio%7D/index.html",
+    "main.b44afe66.css.map": "/%7BCode-Portfolio%7D/static/css/main.b44afe66.css.map",
+    "main.79f9245f.js.map": "/%7BCode-Portfolio%7D/static/js/main.79f9245f.js.map",
+    "787.38497996.chunk.js.map": "/%7BCode-Portfolio%7D/static/js/787.38497996.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b44afe66.css",
+    "static/js/main.79f9245f.js"
+  ]
+}
