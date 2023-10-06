@@ -16,6 +16,12 @@ Finally starting this project September 2023. Lets see how quickly I can link up
 3. Show I understand API's, setting up my own API definition and calling the API to connect the back and front end. (currently using fastAPI)
 4. Setup a (probably simplistic) GitActions Pipeline to push the code to GCP so I can show off my awesome project!
 
-### What has been done as of Tuesday 12th September 2023:
+### What has been done as of Friday 6th October 2023:
+
+Created a simmplistic app with navbar and contact pages. Added a link to my newly created instagram page @savage.software.
+
+Deployed this to GCP (after some troubleshooting). Realised that accessing and hosting on GCP cloud costs money.
+
+Deployed app to github pages currently as a simple free alternative (looked briefly at firebase/firestore.)
 
 
