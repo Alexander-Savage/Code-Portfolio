@@ -18,17 +18,16 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   background-image: url('./images/—Pngtree—3d\ indonesia\ national\ flag\ frame_1180187.jpg');
   background-size: cover;
   height: auto;
   color: black;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .App-link {

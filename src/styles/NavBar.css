@@ -55,5 +55,25 @@
     border-left: 100px;
     margin: 0;
     padding: 1rem;
-    z-index: 400; /* set a higher z-index value than the navbar to make sure the title is displayed on top */
+    z-index: 500; /* set a higher z-index value than the navbar to make sure the title is displayed on top */
+  }
+
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      padding: 1rem; /* reduce the padding for small screens */
+      height: auto; /* set the height to auto to allow the content to wrap */
+      
+    }
+  
+    ul {
+      flex-wrap: wrap;
+    }
+
+    li {
+      margin: 0.5rem; /* increase the margin for small screens */
+    }
+  
+    .navbar a {
+      font-size: 1.4rem; /* reduce the font size even further for small screens */
+    }
   }

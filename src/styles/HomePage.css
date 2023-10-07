@@ -2,14 +2,14 @@
 
 .home-header{
     font-family: 'Poppins';
-    font-size: 80px;
-    letter-spacing: -6px;
+    font-size: 40px;
+    letter-spacing: -3px;
     color: black;
 }
 
 .home-description {
     font-family: 'Poppins';
-    font-size: 30px;
+    font-size: 20px;
     line-height: 40px;
     color: black;
 }
