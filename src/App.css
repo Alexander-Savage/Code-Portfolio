@@ -17,13 +17,19 @@
   }
 }
 
+body {
+  /* background: linear-gradient(to bottom, #000000, #FAF9F6, #000000); */
+  background: #FAECE2;
+}
+
 .App-header {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('./images/—Pngtree—3d\ indonesia\ national\ flag\ frame_1180187.jpg');
   background-size: cover;
+  background-image: #FAF9F6;
+  /* background-image: linear-gradient(direction, black, white); */
   height: auto;
   color: black;
   background-position: center center;

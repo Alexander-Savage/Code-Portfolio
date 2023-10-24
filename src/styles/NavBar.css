@@ -35,6 +35,36 @@
     color: black;
     text-decoration: none;
   }  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: relative; /* Change from absolute to relative */
+    top: 100%; /* Add this to position the dropdown below the link */
+    left: 0; /* Add this to align the dropdown with the link */
+  }
+  
+  .dropdown-menu li {
+    margin: 5px 0;
+  }
+  
 
   .navbar a {
     font-weight: bold;
