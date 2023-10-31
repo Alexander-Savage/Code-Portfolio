@@ -47,13 +47,13 @@ function App() {
       <Container ref={div} maxWidth="100vw">
       <header className="App-header" maxWidth ="100vw">
         <Routes >
-          <Route path="/" element={<HomePage />} />
+          <Route path="/code-portfolio/" element={<HomePage />} />
 
-          <Route path="/about" element={<AboutPage />}/>
+          <Route path="/code-portfolio/about/" element={<AboutPage />}/>
 
-          <Route path="/contact" element={<Contact />}/>
+          <Route path="/code-portfolio/contact/" element={<Contact />}/>
 
-          <Route path="/projects/breast-cancer-predictor" element={<BreastCancerPredictor />}/>
+          <Route path="/code-portfolio/projects/breast-cancer-predictor/" element={<BreastCancerPredictor />}/>
 
         </Routes>
 
