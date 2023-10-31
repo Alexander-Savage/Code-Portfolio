@@ -11,11 +11,10 @@ function Navbar() {
         <li><Link to="/about">About</Link></li>
         <li class="dropdown">
         
-      <a href="#">projects</a>
+      <a href="/#">projects</a>
       <ul class="dropdown-menu">
         <li><Link to="/projects/breast-cancer-predictor">breast cancer predictor</Link></li>
-        <li><a href="#">Option 2</a></li>
-        <li><a href="#">Option 3</a></li>
+        <li><Link to="/projects/matrices-calculator">matrices calculator</Link></li>
       </ul>
     </li>
         <li><Link to="/contact">Contact/Recruitment</Link></li>

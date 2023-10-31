@@ -11,6 +11,7 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';  
 import axios from 'axios'; 
 import axiosInstance from './config/axiosInstance';
+import BreastCancerPredictor from './components/BreastCancerPredictor';
 
 const item = {
   name: 'Alex Savage',
@@ -18,9 +19,6 @@ const item = {
   price: 9.99,
   tax: 0.99
 };
-
-
-
 
 
 function App() {
@@ -55,9 +53,9 @@ function App() {
 
           <Route path="/contact" element={<Contact />}/>
 
+          <Route path="/projects/breast-cancer-predictor" element={<BreastCancerPredictor />}/>
+
         </Routes>
-        {/* <div>{content}</div> */}
-          {/* <Button variant="contained" onClick={callApi}>Contained</Button>   */}
 
         </header>
       </Container>

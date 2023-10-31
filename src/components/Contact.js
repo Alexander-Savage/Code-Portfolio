@@ -12,11 +12,11 @@ function Contact() {
           <link rel="stylesheet" type="text/css" href="styles.css"></link>
       </head>
 
-      <a className='linkedin-logo'  href="../images/src/images/Instagram_logo_2016.png" target="_blank">
+      <a className='linkedin-logo'  href="https://www.linkedin.com/in/alex-savage-3776a2216/" target="_blank">
           <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn Profile" />
       </a>
 
-      <a className='instagram-logo'  href="../images/" target="_blank">
+      <a className='instagram-logo'  href="https://www.instagram.com/savage.software/?igshid=NzZlODBkYWE4Ng%3D%3D" target="_blank">
           <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram Profile"  />
       </a>
 
