@@ -7,14 +7,12 @@
 
   
    .linkedin-logo {
-      width: 200px;
-      height: 50px;
+      padding: 10px;
       /* size-adjust: flex; */
    }
 
    .instagram-logo{
-    width: 200px;
-    height: 50px;
+      padding: 10px;
    }
 
    a {
