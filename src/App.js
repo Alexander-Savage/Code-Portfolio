@@ -1,40 +1,40 @@
-import logo from './logo.svg';
-import {React, useState, useEffect, useRef} from 'react'
+// import logo from './logo.svg';
+import {React, useRef} from 'react'
 import './App.css';
 import NavBar from './components/NavBar'
-import { BrowserRouter as Router, Switch, Route, Link, Routes } from 'react-router-dom';
+import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import Contact from './components/Contact';
 import Container from '@mui/material/Container';
-import Stack from '@mui/material/Stack';  
-import Button from '@mui/material/Button';  
-import axios from 'axios'; 
-import axiosInstance from './config/axiosInstance';
+// import Stack from '@mui/material/Stack';  
+// import Button from '@mui/material/Button';  
+// import axios from 'axios'; 
+// import axiosInstance from './config/axiosInstance';
 import BreastCancerPredictor from './components/BreastCancerPredictor';
 
-const item = {
-  name: 'Alex Savage',
-  description: 'This is a test item',
-  price: 9.99,
-  tax: 0.99
-};
+// const item = {
+//   name: 'Alex Savage',
+//   description: 'This is a test item',
+//   price: 9.99,
+//   tax: 0.99
+// };
 
 
 function App() {
-  const [content, setContent] = useState('This is the content of the div');
+  // const [, setContent] = useState('This is the content of the div');
   const div = useRef(null);
 
-  function callApi() {
-    axiosInstance.get('/api')
-    .then(response => {
-    setContent(response.data.message);
-      console.log(response.data.message);
-    })
-    .catch(error => {
-      console.error(error);
-    });
-  }
+  // function callApi() {
+  //   axiosInstance.get('/api')
+  //   .then(response => {
+  //   setContent(response.data.message);
+  //     console.log(response.data.message);
+  //   })
+  //   .catch(error => {
+  //     console.error(error);
+  //   });
+  // }
 
   // () => useEffect({
   //   callApi()

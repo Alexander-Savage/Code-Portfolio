@@ -1,4 +1,4 @@
-import { purple } from '@mui/material/colors';
+// import { purple } from '@mui/material/colors';
 import '../styles/HomePage.css';
 import React from 'react';
 
